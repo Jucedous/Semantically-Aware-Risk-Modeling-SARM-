@@ -1,0 +1,110 @@
+{
+  "assessments": [
+    {
+      "A_name": "fire extinguisher",
+      "B_name": "flowers",
+      "present": false,
+      "risk_type": "",
+      "weight": 0,
+      "soft_clearance_m": 0,
+      "critical_condition": null,
+      "reason": "No semantic hazard between a fire extinguisher and flowers."
+    },
+    {
+      "A_name": "fire extinguisher",
+      "B_name": "hand dryer",
+      "present": false,
+      "risk_type": "",
+      "weight": 0,
+      "soft_clearance_m": 0,
+      "critical_condition": null,
+      "reason": "No semantic hazard between a fire extinguisher and a hand dryer."
+    },
+    {
+      "A_name": "fire extinguisher",
+      "B_name": "sink",
+      "present": false,
+      "risk_type": "",
+      "weight": 0,
+      "soft_clearance_m": 0,
+      "critical_condition": null,
+      "reason": "No semantic hazard between a fire extinguisher and a sink."
+    },
+    {
+      "A_name": "fire extinguisher",
+      "B_name": "wetfloor sign",
+      "present": true,
+      "risk_type": "slip hazard",
+      "weight": 5,
+      "soft_clearance_m": 1,
+      "critical_condition": {
+        "expression": "norm(Ax-Bx,Ay-By,Az-Bz) < Ar + Br"
+      },
+      "reason": "A wet floor sign indicates a slip hazard, which can be exacerbated by a fire extinguisher."
+    },
+    {
+      "A_name": "flowers",
+      "B_name": "hand dryer",
+      "present": false,
+      "risk_type": "",
+      "weight": 0,
+      "soft_clearance_m": 0,
+      "critical_condition": null,
+      "reason": "No semantic hazard between flowers and a hand dryer."
+    },
+    {
+      "A_name": "flowers",
+      "B_name": "sink",
+      "present": false,
+      "risk_type": "",
+      "weight": 0,
+      "soft_clearance_m": 0,
+      "critical_condition": null,
+      "reason": "No semantic hazard between flowers and a sink."
+    },
+    {
+      "A_name": "flowers",
+      "B_name": "wetfloor sign",
+      "present": false,
+      "risk_type": "",
+      "weight": 0,
+      "soft_clearance_m": 0,
+      "critical_condition": null,
+      "reason": "No semantic hazard between flowers and a wet floor sign."
+    },
+    {
+      "A_name": "hand dryer",
+      "B_name": "sink",
+      "present": false,
+      "risk_type": "",
+      "weight": 0,
+      "soft_clearance_m": 0,
+      "critical_condition": null,
+      "reason": "No semantic hazard between a hand dryer and a sink."
+    },
+    {
+      "A_name": "hand dryer",
+      "B_name": "wetfloor sign",
+      "present": true,
+      "risk_type": "slip hazard",
+      "weight": 5,
+      "soft_clearance_m": 1,
+      "critical_condition": {
+        "expression": "norm(Ax-Bx,Ay-By,Az-Bz) < Ar + Br"
+      },
+      "reason": "A wet floor sign indicates a slip hazard, which can be exacerbated by a hand dryer."
+    },
+    {
+      "A_name": "sink",
+      "B_name": "wetfloor sign",
+      "present": true,
+      "risk_type": "slip hazard",
+      "weight": 5,
+      "soft_clearance_m": 1,
+      "critical_condition": {
+        "expression": "norm(Ax-Bx,Ay-By,Az-Bz) < Ar + Br"
+      },
+      "reason": "A wet floor sign indicates a slip hazard, which is relevant in the context of a sink."
+    }
+  ]
+}

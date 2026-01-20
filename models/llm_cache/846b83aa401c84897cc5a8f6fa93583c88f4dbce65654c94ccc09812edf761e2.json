@@ -1,0 +1,14 @@
+{
+  "assessments": [
+    {
+      "A_name": "cup_coffee",
+      "B_name": "eletronic_printer",
+      "present": false,
+      "risk_type": "",
+      "weight": 0,
+      "soft_clearance_m": 0,
+      "critical_condition": null,
+      "reason": "No semantic hazard between a container and an electronic device."
+    }
+  ]
+}

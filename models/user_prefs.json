@@ -1,0 +1,82 @@
+{
+  "rules": [
+    {
+      "user_id": "zilinzhao",
+      "selectors": {
+        "A": {
+          "by": "name",
+          "value": "knife"
+        },
+        "B": {
+          "by": "name",
+          "value": "water_cup"
+        }
+      },
+      "directional": false,
+      "relation": null,
+      "condition_expr": null,
+      "override": {
+        "present": false,
+        "model_present": false,
+        "user_intent_present": false,
+        "needs_confirmation": false,
+        "confirmation_question": ""
+      },
+      "reason": "knife and water cup should not be that dangerous",
+      "id": "8acccea9-e00b-4336-af3c-7d9c0639dee3",
+      "created_at": "2025-11-26T23:05:28Z"
+    },
+    {
+      "user_id": "zilinzhao",
+      "selectors": {
+        "A": {
+          "by": "name",
+          "value": "blade"
+        },
+        "B": {
+          "by": "name",
+          "value": "kid"
+        }
+      },
+      "directional": false,
+      "relation": null,
+      "condition_expr": null,
+      "override": {
+        "present": true,
+        "model_present": true,
+        "user_intent_present": false,
+        "needs_confirmation": true,
+        "confirmation_question": "Do you really mean this should NOT be treated as dangerous?"
+      },
+      "reason": "blade and kid should not be dangerous",
+      "id": "e1b53e8c-4e57-43df-baf8-3126f6d43c05",
+      "created_at": "2025-11-26T23:08:32Z"
+    },
+    {
+      "user_id": "demo_user",
+      "selectors": {
+        "A": {
+          "by": "name",
+          "value": "Mug"
+        },
+        "B": {
+          "by": "name",
+          "value": "Laptop"
+        }
+      },
+      "directional": false,
+      "relation": null,
+      "condition_expr": null,
+      "override": {
+        "present": false,
+        "model_present": false,
+        "user_intent_present": false,
+        "needs_confirmation": false,
+        "confirmation_question": ""
+      },
+      "reason": "The Mug and Laptop should NOT be treated as dangerous together.",
+      "id": "e36ca35c-1bf5-4d4e-aa8b-166748da15d9",
+      "created_at": "2025-12-19T17:06:40Z"
+    }
+  ]
+}

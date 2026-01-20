@@ -1,0 +1,268 @@
+{
+  "assessments": [
+    {
+      "A_name": "chair",
+      "B_name": "charge cords",
+      "present": true,
+      "risk_type": "tripping hazard",
+      "weight": 1.0,
+      "soft_clearance_m": 0.5,
+      "critical_condition": {
+        "expression": "norm_xy(Ax,Bx) < Ar + Br"
+      },
+      "reason": "Charge cords can create a tripping hazard when near furniture."
+    },
+    {
+      "A_name": "chair",
+      "B_name": "computer tower 02",
+      "present": false,
+      "weight": 0,
+      "soft_clearance_m": 0,
+      "critical_condition": null,
+      "reason": "No semantic hazard between chair and computer tower."
+    },
+    {
+      "A_name": "chair",
+      "B_name": "computer tower modern 01",
+      "present": false,
+      "weight": 0,
+      "soft_clearance_m": 0,
+      "critical_condition": null,
+      "reason": "No semantic hazard between chair and computer tower."
+    },
+    {
+      "A_name": "chair",
+      "B_name": "cowgirl hat",
+      "present": false,
+      "weight": 0,
+      "soft_clearance_m": 0,
+      "critical_condition": null,
+      "reason": "No semantic hazard between chair and cowgirl hat."
+    },
+    {
+      "A_name": "chair",
+      "B_name": "energydrink",
+      "present": false,
+      "weight": 0,
+      "soft_clearance_m": 0,
+      "critical_condition": null,
+      "reason": "No semantic hazard between chair and energy drink."
+    },
+    {
+      "A_name": "chair",
+      "B_name": "faxmachine",
+      "present": false,
+      "weight": 0,
+      "soft_clearance_m": 0,
+      "critical_condition": null,
+      "reason": "No semantic hazard between chair and fax machine."
+    },
+    {
+      "A_name": "chair",
+      "B_name": "socket outlet",
+      "present": false,
+      "weight": 0,
+      "soft_clearance_m": 0,
+      "critical_condition": null,
+      "reason": "No semantic hazard between chair and socket outlet."
+    },
+    {
+      "A_name": "charge cords",
+      "B_name": "computer tower 02",
+      "present": false,
+      "weight": 0,
+      "soft_clearance_m": 0,
+      "critical_condition": null,
+      "reason": "No semantic hazard between charge cords and computer tower."
+    },
+    {
+      "A_name": "charge cords",
+      "B_name": "computer tower modern 01",
+      "present": false,
+      "weight": 0,
+      "soft_clearance_m": 0,
+      "critical_condition": null,
+      "reason": "No semantic hazard between charge cords and computer tower."
+    },
+    {
+      "A_name": "charge cords",
+      "B_name": "cowgirl hat",
+      "present": false,
+      "weight": 0,
+      "soft_clearance_m": 0,
+      "critical_condition": null,
+      "reason": "No semantic hazard between charge cords and cowgirl hat."
+    },
+    {
+      "A_name": "charge cords",
+      "B_name": "energydrink",
+      "present": false,
+      "weight": 0,
+      "soft_clearance_m": 0,
+      "critical_condition": null,
+      "reason": "No semantic hazard between charge cords and energy drink."
+    },
+    {
+      "A_name": "charge cords",
+      "B_name": "faxmachine",
+      "present": false,
+      "weight": 0,
+      "soft_clearance_m": 0,
+      "critical_condition": null,
+      "reason": "No semantic hazard between charge cords and fax machine."
+    },
+    {
+      "A_name": "charge cords",
+      "B_name": "socket outlet",
+      "present": true,
+      "risk_type": "electrical hazard",
+      "weight": 1.5,
+      "soft_clearance_m": 0.3,
+      "critical_condition": {
+        "expression": "norm_xy(Ax,Bx) < Ar + Br"
+      },
+      "reason": "Charge cords can pose an electrical hazard when near socket outlets."
+    },
+    {
+      "A_name": "computer tower 02",
+      "B_name": "computer tower modern 01",
+      "present": false,
+      "weight": 0,
+      "soft_clearance_m": 0,
+      "critical_condition": null,
+      "reason": "No semantic hazard between two computer towers."
+    },
+    {
+      "A_name": "computer tower 02",
+      "B_name": "cowgirl hat",
+      "present": false,
+      "weight": 0,
+      "soft_clearance_m": 0,
+      "critical_condition": null,
+      "reason": "No semantic hazard between computer tower and cowgirl hat."
+    },
+    {
+      "A_name": "computer tower 02",
+      "B_name": "energydrink",
+      "present": false,
+      "weight": 0,
+      "soft_clearance_m": 0,
+      "critical_condition": null,
+      "reason": "No semantic hazard between computer tower and energy drink."
+    },
+    {
+      "A_name": "computer tower 02",
+      "B_name": "faxmachine",
+      "present": false,
+      "weight": 0,
+      "soft_clearance_m": 0,
+      "critical_condition": null,
+      "reason": "No semantic hazard between computer tower and fax machine."
+    },
+    {
+      "A_name": "computer tower 02",
+      "B_name": "socket outlet",
+      "present": true,
+      "risk_type": "electrical hazard",
+      "weight": 1.5,
+      "soft_clearance_m": 0.3,
+      "critical_condition": {
+        "expression": "norm_xy(Ax,Bx) < Ar + Br"
+      },
+      "reason": "Computer tower can pose an electrical hazard when near socket outlets."
+    },
+    {
+      "A_name": "computer tower modern 01",
+      "B_name": "cowgirl hat",
+      "present": false,
+      "weight": 0,
+      "soft_clearance_m": 0,
+      "critical_condition": null,
+      "reason": "No semantic hazard between computer tower and cowgirl hat."
+    },
+    {
+      "A_name": "computer tower modern 01",
+      "B_name": "energydrink",
+      "present": false,
+      "weight": 0,
+      "soft_clearance_m": 0,
+      "critical_condition": null,
+      "reason": "No semantic hazard between computer tower and energy drink."
+    },
+    {
+      "A_name": "computer tower modern 01",
+      "B_name": "faxmachine",
+      "present": false,
+      "weight": 0,
+      "soft_clearance_m": 0,
+      "critical_condition": null,
+      "reason": "No semantic hazard between computer tower and fax machine."
+    },
+    {
+      "A_name": "computer tower modern 01",
+      "B_name": "socket outlet",
+      "present": true,
+      "risk_type": "electrical hazard",
+      "weight": 1.5,
+      "soft_clearance_m": 0.3,
+      "critical_condition": {
+        "expression": "norm_xy(Ax,Bx) < Ar + Br"
+      },
+      "reason": "Computer tower can pose an electrical hazard when near socket outlets."
+    },
+    {
+      "A_name": "cowgirl hat",
+      "B_name": "energydrink",
+      "present": false,
+      "weight": 0,
+      "soft_clearance_m": 0,
+      "critical_condition": null,
+      "reason": "No semantic hazard between cowgirl hat and energy drink."
+    },
+    {
+      "A_name": "cowgirl hat",
+      "B_name": "faxmachine",
+      "present": false,
+      "weight": 0,
+      "soft_clearance_m": 0,
+      "critical_condition": null,
+      "reason": "No semantic hazard between cowgirl hat and fax machine."
+    },
+    {
+      "A_name": "cowgirl hat",
+      "B_name": "socket outlet",
+      "present": false,
+      "weight": 0,
+      "soft_clearance_m": 0,
+      "critical_condition": null,
+      "reason": "No semantic hazard between cowgirl hat and socket outlet."
+    },
+    {
+      "A_name": "energydrink",
+      "B_name": "faxmachine",
+      "present": false,
+      "weight": 0,
+      "soft_clearance_m": 0,
+      "critical_condition": null,
+      "reason": "No semantic hazard between energy drink and fax machine."
+    },
+    {
+      "A_name": "energydrink",
+      "B_name": "socket outlet",
+      "present": false,
+      "weight": 0,
+      "soft_clearance_m": 0,
+      "critical_condition": null,
+      "reason": "No semantic hazard between energy drink and socket outlet."
+    },
+    {
+      "A_name": "faxmachine",
+      "B_name": "socket outlet",
+      "present": false,
+      "weight": 0,
+      "soft_clearance_m": 0,
+      "critical_condition": null,
+      "reason": "No semantic hazard between fax machine and socket outlet."
+    }
+  ]
+}

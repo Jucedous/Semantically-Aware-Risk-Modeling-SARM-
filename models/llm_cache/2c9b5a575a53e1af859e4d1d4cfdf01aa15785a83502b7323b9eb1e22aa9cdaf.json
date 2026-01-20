@@ -1,0 +1,374 @@
+{
+  "assessments": [
+    {
+      "A_name": "cake",
+      "B_name": "coffee machine",
+      "present": false,
+      "risk_type": "",
+      "weight": 0,
+      "soft_clearance_m": 0,
+      "critical_condition": null,
+      "reason": "No semantic hazard between food and electronic."
+    },
+    {
+      "A_name": "cake",
+      "B_name": "emergency_axe",
+      "present": true,
+      "risk_type": "sharp_tool",
+      "weight": 5,
+      "soft_clearance_m": 0.5,
+      "critical_condition": {
+        "expression": "norm(Ax-Bx,Ay-By,Az-Bz) < Ar + Br"
+      },
+      "reason": "Food can be hazardous with sharp tools."
+    },
+    {
+      "A_name": "cake",
+      "B_name": "knifes",
+      "present": true,
+      "risk_type": "sharp_tool",
+      "weight": 5,
+      "soft_clearance_m": 0.5,
+      "critical_condition": {
+        "expression": "norm(Ax-Bx,Ay-By,Az-Bz) < Ar + Br"
+      },
+      "reason": "Food can be hazardous with sharp objects."
+    },
+    {
+      "A_name": "cake",
+      "B_name": "microwave",
+      "present": false,
+      "risk_type": "",
+      "weight": 0,
+      "soft_clearance_m": 0,
+      "critical_condition": null,
+      "reason": "No semantic hazard between food and electronic."
+    },
+    {
+      "A_name": "cake",
+      "B_name": "plant_01",
+      "present": false,
+      "risk_type": "",
+      "weight": 0,
+      "soft_clearance_m": 0,
+      "critical_condition": null,
+      "reason": "No semantic hazard between food and object."
+    },
+    {
+      "A_name": "cake",
+      "B_name": "power_socket_outlet",
+      "present": false,
+      "risk_type": "",
+      "weight": 0,
+      "soft_clearance_m": 0,
+      "critical_condition": null,
+      "reason": "No semantic hazard between food and electronic."
+    },
+    {
+      "A_name": "cake",
+      "B_name": "stack_of_books",
+      "present": false,
+      "risk_type": "",
+      "weight": 0,
+      "soft_clearance_m": 0,
+      "critical_condition": null,
+      "reason": "No semantic hazard between food and object."
+    },
+    {
+      "A_name": "cake",
+      "B_name": "toaster",
+      "present": false,
+      "risk_type": "",
+      "weight": 0,
+      "soft_clearance_m": 0,
+      "critical_condition": null,
+      "reason": "No semantic hazard between food and electronic."
+    },
+    {
+      "A_name": "coffee machine",
+      "B_name": "emergency_axe",
+      "present": true,
+      "risk_type": "sharp_tool",
+      "weight": 5,
+      "soft_clearance_m": 0.5,
+      "critical_condition": {
+        "expression": "norm(Ax-Bx,Ay-By,Az-Bz) < Ar + Br"
+      },
+      "reason": "Electronic device can be hazardous with sharp tools."
+    },
+    {
+      "A_name": "coffee machine",
+      "B_name": "knifes",
+      "present": true,
+      "risk_type": "sharp_tool",
+      "weight": 5,
+      "soft_clearance_m": 0.5,
+      "critical_condition": {
+        "expression": "norm(Ax-Bx,Ay-By,Az-Bz) < Ar + Br"
+      },
+      "reason": "Electronic device can be hazardous with sharp objects."
+    },
+    {
+      "A_name": "coffee machine",
+      "B_name": "microwave",
+      "present": false,
+      "risk_type": "",
+      "weight": 0,
+      "soft_clearance_m": 0,
+      "critical_condition": null,
+      "reason": "No semantic hazard between electronic devices."
+    },
+    {
+      "A_name": "coffee machine",
+      "B_name": "plant_01",
+      "present": false,
+      "risk_type": "",
+      "weight": 0,
+      "soft_clearance_m": 0,
+      "critical_condition": null,
+      "reason": "No semantic hazard between electronic and object."
+    },
+    {
+      "A_name": "coffee machine",
+      "B_name": "power_socket_outlet",
+      "present": false,
+      "risk_type": "",
+      "weight": 0,
+      "soft_clearance_m": 0,
+      "critical_condition": null,
+      "reason": "No semantic hazard between electronic devices."
+    },
+    {
+      "A_name": "coffee machine",
+      "B_name": "stack_of_books",
+      "present": false,
+      "risk_type": "",
+      "weight": 0,
+      "soft_clearance_m": 0,
+      "critical_condition": null,
+      "reason": "No semantic hazard between electronic and object."
+    },
+    {
+      "A_name": "coffee machine",
+      "B_name": "toaster",
+      "present": false,
+      "risk_type": "",
+      "weight": 0,
+      "soft_clearance_m": 0,
+      "critical_condition": null,
+      "reason": "No semantic hazard between electronic devices."
+    },
+    {
+      "A_name": "emergency_axe",
+      "B_name": "knifes",
+      "present": true,
+      "risk_type": "sharp_tool",
+      "weight": 5,
+      "soft_clearance_m": 0.5,
+      "critical_condition": {
+        "expression": "norm(Ax-Bx,Ay-By,Az-Bz) < Ar + Br"
+      },
+      "reason": "Both are sharp tools, posing a hazard."
+    },
+    {
+      "A_name": "emergency_axe",
+      "B_name": "microwave",
+      "present": false,
+      "risk_type": "",
+      "weight": 0,
+      "soft_clearance_m": 0,
+      "critical_condition": null,
+      "reason": "No semantic hazard between tool and electronic."
+    },
+    {
+      "A_name": "emergency_axe",
+      "B_name": "plant_01",
+      "present": false,
+      "risk_type": "",
+      "weight": 0,
+      "soft_clearance_m": 0,
+      "critical_condition": null,
+      "reason": "No semantic hazard between tool and object."
+    },
+    {
+      "A_name": "emergency_axe",
+      "B_name": "power_socket_outlet",
+      "present": false,
+      "risk_type": "",
+      "weight": 0,
+      "soft_clearance_m": 0,
+      "critical_condition": null,
+      "reason": "No semantic hazard between tool and electronic."
+    },
+    {
+      "A_name": "emergency_axe",
+      "B_name": "stack_of_books",
+      "present": false,
+      "risk_type": "",
+      "weight": 0,
+      "soft_clearance_m": 0,
+      "critical_condition": null,
+      "reason": "No semantic hazard between tool and object."
+    },
+    {
+      "A_name": "emergency_axe",
+      "B_name": "toaster",
+      "present": false,
+      "risk_type": "",
+      "weight": 0,
+      "soft_clearance_m": 0,
+      "critical_condition": null,
+      "reason": "No semantic hazard between tool and electronic."
+    },
+    {
+      "A_name": "knifes",
+      "B_name": "microwave",
+      "present": false,
+      "risk_type": "",
+      "weight": 0,
+      "soft_clearance_m": 0,
+      "critical_condition": null,
+      "reason": "No semantic hazard between sharp object and electronic."
+    },
+    {
+      "A_name": "knifes",
+      "B_name": "plant_01",
+      "present": false,
+      "risk_type": "",
+      "weight": 0,
+      "soft_clearance_m": 0,
+      "critical_condition": null,
+      "reason": "No semantic hazard between sharp object and object."
+    },
+    {
+      "A_name": "knifes",
+      "B_name": "power_socket_outlet",
+      "present": false,
+      "risk_type": "",
+      "weight": 0,
+      "soft_clearance_m": 0,
+      "critical_condition": null,
+      "reason": "No semantic hazard between sharp object and electronic."
+    },
+    {
+      "A_name": "knifes",
+      "B_name": "stack_of_books",
+      "present": false,
+      "risk_type": "",
+      "weight": 0,
+      "soft_clearance_m": 0,
+      "critical_condition": null,
+      "reason": "No semantic hazard between sharp object and object."
+    },
+    {
+      "A_name": "knifes",
+      "B_name": "toaster",
+      "present": false,
+      "risk_type": "",
+      "weight": 0,
+      "soft_clearance_m": 0,
+      "critical_condition": null,
+      "reason": "No semantic hazard between sharp object and electronic."
+    },
+    {
+      "A_name": "microwave",
+      "B_name": "plant_01",
+      "present": false,
+      "risk_type": "",
+      "weight": 0,
+      "soft_clearance_m": 0,
+      "critical_condition": null,
+      "reason": "No semantic hazard between electronic and object."
+    },
+    {
+      "A_name": "microwave",
+      "B_name": "power_socket_outlet",
+      "present": false,
+      "risk_type": "",
+      "weight": 0,
+      "soft_clearance_m": 0,
+      "critical_condition": null,
+      "reason": "No semantic hazard between electronic devices."
+    },
+    {
+      "A_name": "microwave",
+      "B_name": "stack_of_books",
+      "present": false,
+      "risk_type": "",
+      "weight": 0,
+      "soft_clearance_m": 0,
+      "critical_condition": null,
+      "reason": "No semantic hazard between electronic and object."
+    },
+    {
+      "A_name": "microwave",
+      "B_name": "toaster",
+      "present": false,
+      "risk_type": "",
+      "weight": 0,
+      "soft_clearance_m": 0,
+      "critical_condition": null,
+      "reason": "No semantic hazard between electronic devices."
+    },
+    {
+      "A_name": "plant_01",
+      "B_name": "power_socket_outlet",
+      "present": false,
+      "risk_type": "",
+      "weight": 0,
+      "soft_clearance_m": 0,
+      "critical_condition": null,
+      "reason": "No semantic hazard between object and electronic."
+    },
+    {
+      "A_name": "plant_01",
+      "B_name": "stack_of_books",
+      "present": false,
+      "risk_type": "",
+      "weight": 0,
+      "soft_clearance_m": 0,
+      "critical_condition": null,
+      "reason": "No semantic hazard between object and object."
+    },
+    {
+      "A_name": "plant_01",
+      "B_name": "toaster",
+      "present": false,
+      "risk_type": "",
+      "weight": 0,
+      "soft_clearance_m": 0,
+      "critical_condition": null,
+      "reason": "No semantic hazard between object and electronic."
+    },
+    {
+      "A_name": "power_socket_outlet",
+      "B_name": "stack_of_books",
+      "present": false,
+      "risk_type": "",
+      "weight": 0,
+      "soft_clearance_m": 0,
+      "critical_condition": null,
+      "reason": "No semantic hazard between electronic and object."
+    },
+    {
+      "A_name": "power_socket_outlet",
+      "B_name": "toaster",
+      "present": false,
+      "risk_type": "",
+      "weight": 0,
+      "soft_clearance_m": 0,
+      "critical_condition": null,
+      "reason": "No semantic hazard between electronic devices."
+    },
+    {
+      "A_name": "stack_of_books",
+      "B_name": "toaster",
+      "present": false,
+      "risk_type": "",
+      "weight": 0,
+      "soft_clearance_m": 0,
+      "critical_condition": null,
+      "reason": "No semantic hazard between object and electronic."
+    }
+  ]
+}

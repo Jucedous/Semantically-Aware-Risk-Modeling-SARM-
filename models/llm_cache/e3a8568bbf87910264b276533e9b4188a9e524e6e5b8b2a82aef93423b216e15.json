@@ -1,0 +1,292 @@
+{
+  "assessments": [
+    {
+      "A_name": "3d_printer",
+      "B_name": "chair",
+      "present": false,
+      "risk_type": "",
+      "weight": 0,
+      "soft_clearance_m": 0,
+      "critical_condition": null,
+      "reason": "No semantic hazard between tool and object."
+    },
+    {
+      "A_name": "3d_printer",
+      "B_name": "coffee",
+      "present": false,
+      "risk_type": "",
+      "weight": 0,
+      "soft_clearance_m": 0,
+      "critical_condition": null,
+      "reason": "No semantic hazard between tool and drink."
+    },
+    {
+      "A_name": "3d_printer",
+      "B_name": "eletronic_cord",
+      "present": true,
+      "risk_type": "entanglement",
+      "weight": 5,
+      "soft_clearance_m": 0.5,
+      "critical_condition": {
+        "expression": "norm(Ax-Bx,Ay-By,Az-Bz) < Ar + Br"
+      },
+      "reason": "Cables can entangle with tools."
+    },
+    {
+      "A_name": "3d_printer",
+      "B_name": "fire extinguisher",
+      "present": false,
+      "risk_type": "",
+      "weight": 0,
+      "soft_clearance_m": 0,
+      "critical_condition": null,
+      "reason": "No semantic hazard between tool and tool."
+    },
+    {
+      "A_name": "3d_printer",
+      "B_name": "Magazine",
+      "present": false,
+      "risk_type": "",
+      "weight": 0,
+      "soft_clearance_m": 0,
+      "critical_condition": null,
+      "reason": "No semantic hazard between tool and paper."
+    },
+    {
+      "A_name": "3d_printer",
+      "B_name": "plant",
+      "present": false,
+      "risk_type": "",
+      "weight": 0,
+      "soft_clearance_m": 0,
+      "critical_condition": null,
+      "reason": "No semantic hazard between tool and object."
+    },
+    {
+      "A_name": "3d_printer",
+      "B_name": "rolling TV",
+      "present": false,
+      "risk_type": "",
+      "weight": 0,
+      "soft_clearance_m": 0,
+      "critical_condition": null,
+      "reason": "No semantic hazard between tool and electronic."
+    },
+    {
+      "A_name": "chair",
+      "B_name": "coffee",
+      "present": false,
+      "risk_type": "",
+      "weight": 0,
+      "soft_clearance_m": 0,
+      "critical_condition": null,
+      "reason": "No semantic hazard between object and drink."
+    },
+    {
+      "A_name": "chair",
+      "B_name": "eletronic_cord",
+      "present": true,
+      "risk_type": "entanglement",
+      "weight": 5,
+      "soft_clearance_m": 0.5,
+      "critical_condition": {
+        "expression": "norm(Ax-Bx,Ay-By,Az-Bz) < Ar + Br"
+      },
+      "reason": "Cables can entangle with furniture."
+    },
+    {
+      "A_name": "chair",
+      "B_name": "fire extinguisher",
+      "present": false,
+      "risk_type": "",
+      "weight": 0,
+      "soft_clearance_m": 0,
+      "critical_condition": null,
+      "reason": "No semantic hazard between object and tool."
+    },
+    {
+      "A_name": "chair",
+      "B_name": "Magazine",
+      "present": false,
+      "risk_type": "",
+      "weight": 0,
+      "soft_clearance_m": 0,
+      "critical_condition": null,
+      "reason": "No semantic hazard between object and paper."
+    },
+    {
+      "A_name": "chair",
+      "B_name": "plant",
+      "present": false,
+      "risk_type": "",
+      "weight": 0,
+      "soft_clearance_m": 0,
+      "critical_condition": null,
+      "reason": "No semantic hazard between object and object."
+    },
+    {
+      "A_name": "chair",
+      "B_name": "rolling TV",
+      "present": false,
+      "risk_type": "",
+      "weight": 0,
+      "soft_clearance_m": 0,
+      "critical_condition": null,
+      "reason": "No semantic hazard between object and electronic."
+    },
+    {
+      "A_name": "coffee",
+      "B_name": "eletronic_cord",
+      "present": true,
+      "risk_type": "spillage",
+      "weight": 4,
+      "soft_clearance_m": 0.3,
+      "critical_condition": {
+        "expression": "norm(Ax-Bx,Ay-By,Az-Bz) < Ar + Br"
+      },
+      "reason": "Spilled drinks can cause electrical hazards."
+    },
+    {
+      "A_name": "coffee",
+      "B_name": "fire extinguisher",
+      "present": false,
+      "risk_type": "",
+      "weight": 0,
+      "soft_clearance_m": 0,
+      "critical_condition": null,
+      "reason": "No semantic hazard between drink and tool."
+    },
+    {
+      "A_name": "coffee",
+      "B_name": "Magazine",
+      "present": false,
+      "risk_type": "",
+      "weight": 0,
+      "soft_clearance_m": 0,
+      "critical_condition": null,
+      "reason": "No semantic hazard between drink and paper."
+    },
+    {
+      "A_name": "coffee",
+      "B_name": "plant",
+      "present": false,
+      "risk_type": "",
+      "weight": 0,
+      "soft_clearance_m": 0,
+      "critical_condition": null,
+      "reason": "No semantic hazard between drink and object."
+    },
+    {
+      "A_name": "coffee",
+      "B_name": "rolling TV",
+      "present": false,
+      "risk_type": "",
+      "weight": 0,
+      "soft_clearance_m": 0,
+      "critical_condition": null,
+      "reason": "No semantic hazard between drink and electronic."
+    },
+    {
+      "A_name": "eletronic_cord",
+      "B_name": "fire extinguisher",
+      "present": false,
+      "risk_type": "",
+      "weight": 0,
+      "soft_clearance_m": 0,
+      "critical_condition": null,
+      "reason": "No semantic hazard between cable and tool."
+    },
+    {
+      "A_name": "eletronic_cord",
+      "B_name": "Magazine",
+      "present": false,
+      "risk_type": "",
+      "weight": 0,
+      "soft_clearance_m": 0,
+      "critical_condition": null,
+      "reason": "No semantic hazard between cable and paper."
+    },
+    {
+      "A_name": "eletronic_cord",
+      "B_name": "plant",
+      "present": false,
+      "risk_type": "",
+      "weight": 0,
+      "soft_clearance_m": 0,
+      "critical_condition": null,
+      "reason": "No semantic hazard between cable and object."
+    },
+    {
+      "A_name": "eletronic_cord",
+      "B_name": "rolling TV",
+      "present": true,
+      "risk_type": "entanglement",
+      "weight": 5,
+      "soft_clearance_m": 0.5,
+      "critical_condition": {
+        "expression": "norm(Ax-Bx,Ay-By,Az-Bz) < Ar + Br"
+      },
+      "reason": "Cables can entangle with electronics."
+    },
+    {
+      "A_name": "fire extinguisher",
+      "B_name": "Magazine",
+      "present": false,
+      "risk_type": "",
+      "weight": 0,
+      "soft_clearance_m": 0,
+      "critical_condition": null,
+      "reason": "No semantic hazard between tool and paper."
+    },
+    {
+      "A_name": "fire extinguisher",
+      "B_name": "plant",
+      "present": false,
+      "risk_type": "",
+      "weight": 0,
+      "soft_clearance_m": 0,
+      "critical_condition": null,
+      "reason": "No semantic hazard between tool and object."
+    },
+    {
+      "A_name": "fire extinguisher",
+      "B_name": "rolling TV",
+      "present": false,
+      "risk_type": "",
+      "weight": 0,
+      "soft_clearance_m": 0,
+      "critical_condition": null,
+      "reason": "No semantic hazard between tool and electronic."
+    },
+    {
+      "A_name": "Magazine",
+      "B_name": "plant",
+      "present": false,
+      "risk_type": "",
+      "weight": 0,
+      "soft_clearance_m": 0,
+      "critical_condition": null,
+      "reason": "No semantic hazard between paper and object."
+    },
+    {
+      "A_name": "Magazine",
+      "B_name": "rolling TV",
+      "present": false,
+      "risk_type": "",
+      "weight": 0,
+      "soft_clearance_m": 0,
+      "critical_condition": null,
+      "reason": "No semantic hazard between paper and electronic."
+    },
+    {
+      "A_name": "plant",
+      "B_name": "rolling TV",
+      "present": false,
+      "risk_type": "",
+      "weight": 0,
+      "soft_clearance_m": 0,
+      "critical_condition": null,
+      "reason": "No semantic hazard between object and electronic."
+    }
+  ]
+}

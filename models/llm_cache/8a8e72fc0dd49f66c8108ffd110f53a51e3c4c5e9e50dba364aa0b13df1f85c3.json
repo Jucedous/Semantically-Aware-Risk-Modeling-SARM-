@@ -1,0 +1,110 @@
+{
+  "assessments": [
+    {
+      "A_name": "cardboard box",
+      "B_name": "computer mouse",
+      "present": false,
+      "risk_type": "",
+      "weight": 0,
+      "soft_clearance_m": 0,
+      "critical_condition": null,
+      "reason": "No semantic hazard between a container and an electronic device."
+    },
+    {
+      "A_name": "cardboard box",
+      "B_name": "Computer_Monitor",
+      "present": false,
+      "risk_type": "",
+      "weight": 0,
+      "soft_clearance_m": 0,
+      "critical_condition": null,
+      "reason": "No semantic hazard between a container and an electronic device."
+    },
+    {
+      "A_name": "cardboard box",
+      "B_name": "human",
+      "present": true,
+      "risk_type": "crush",
+      "weight": 5,
+      "soft_clearance_m": 0.5,
+      "critical_condition": {
+        "expression": "norm(Ax,Bx) < Ar + Br"
+      },
+      "reason": "A cardboard box can potentially crush a human if it falls."
+    },
+    {
+      "A_name": "cardboard box",
+      "B_name": "metal trophy",
+      "present": false,
+      "risk_type": "",
+      "weight": 0,
+      "soft_clearance_m": 0,
+      "critical_condition": null,
+      "reason": "No semantic hazard between a container and an object."
+    },
+    {
+      "A_name": "computer mouse",
+      "B_name": "Computer_Monitor",
+      "present": false,
+      "risk_type": "",
+      "weight": 0,
+      "soft_clearance_m": 0,
+      "critical_condition": null,
+      "reason": "No semantic hazard between two electronic devices."
+    },
+    {
+      "A_name": "computer mouse",
+      "B_name": "human",
+      "present": false,
+      "risk_type": "",
+      "weight": 0,
+      "soft_clearance_m": 0,
+      "critical_condition": null,
+      "reason": "No semantic hazard between an electronic device and a human."
+    },
+    {
+      "A_name": "computer mouse",
+      "B_name": "metal trophy",
+      "present": false,
+      "risk_type": "",
+      "weight": 0,
+      "soft_clearance_m": 0,
+      "critical_condition": null,
+      "reason": "No semantic hazard between an electronic device and an object."
+    },
+    {
+      "A_name": "Computer_Monitor",
+      "B_name": "human",
+      "present": true,
+      "risk_type": "crush",
+      "weight": 5,
+      "soft_clearance_m": 0.5,
+      "critical_condition": {
+        "expression": "norm(Ax,Bx) < Ar + Br"
+      },
+      "reason": "A computer monitor can potentially crush a human if it falls."
+    },
+    {
+      "A_name": "Computer_Monitor",
+      "B_name": "metal trophy",
+      "present": false,
+      "risk_type": "",
+      "weight": 0,
+      "soft_clearance_m": 0,
+      "critical_condition": null,
+      "reason": "No semantic hazard between an electronic device and an object."
+    },
+    {
+      "A_name": "human",
+      "B_name": "metal trophy",
+      "present": true,
+      "risk_type": "injury",
+      "weight": 3,
+      "soft_clearance_m": 0.2,
+      "critical_condition": {
+        "expression": "norm(Ax,Bx) < Ar + Br"
+      },
+      "reason": "A human can be injured by a falling metal trophy."
+    }
+  ]
+}

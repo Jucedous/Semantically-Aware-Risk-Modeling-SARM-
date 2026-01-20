@@ -1,0 +1,224 @@
+{
+  "assessments": [
+    {
+      "A_name": "beanbag chair",
+      "B_name": "computer monitor",
+      "present": false,
+      "risk_type": "",
+      "weight": 0,
+      "soft_clearance_m": 0,
+      "critical_condition": null,
+      "reason": "No semantic hazard between a chair and a monitor."
+    },
+    {
+      "A_name": "beanbag chair",
+      "B_name": "cup_water",
+      "present": false,
+      "risk_type": "",
+      "weight": 0,
+      "soft_clearance_m": 0,
+      "critical_condition": null,
+      "reason": "No semantic hazard between a chair and a cup of water."
+    },
+    {
+      "A_name": "beanbag chair",
+      "B_name": "eletronic cord cables",
+      "present": false,
+      "risk_type": "",
+      "weight": 0,
+      "soft_clearance_m": 0,
+      "critical_condition": null,
+      "reason": "No semantic hazard between a chair and cables."
+    },
+    {
+      "A_name": "beanbag chair",
+      "B_name": "fire extinguisher",
+      "present": false,
+      "risk_type": "",
+      "weight": 0,
+      "soft_clearance_m": 0,
+      "critical_condition": null,
+      "reason": "No semantic hazard between a chair and a fire extinguisher."
+    },
+    {
+      "A_name": "beanbag chair",
+      "B_name": "human",
+      "present": false,
+      "risk_type": "",
+      "weight": 0,
+      "soft_clearance_m": 0,
+      "critical_condition": null,
+      "reason": "No semantic hazard between a chair and a human."
+    },
+    {
+      "A_name": "beanbag chair",
+      "B_name": "photo copier",
+      "present": false,
+      "risk_type": "",
+      "weight": 0,
+      "soft_clearance_m": 0,
+      "critical_condition": null,
+      "reason": "No semantic hazard between a chair and a photo copier."
+    },
+    {
+      "A_name": "computer monitor",
+      "B_name": "cup_water",
+      "present": true,
+      "risk_type": "spill hazard",
+      "weight": 1,
+      "soft_clearance_m": 0.5,
+      "critical_condition": {
+        "expression": "norm(Ax-Bx,Ay-By,Az-Bz) < Ar + Br"
+      },
+      "reason": "Water can spill and damage the monitor."
+    },
+    {
+      "A_name": "computer monitor",
+      "B_name": "eletronic cord cables",
+      "present": true,
+      "risk_type": "tripping hazard",
+      "weight": 1,
+      "soft_clearance_m": 0.5,
+      "critical_condition": {
+        "expression": "norm(Ax-Bx,Ay-By,Az-Bz) < Ar + Br"
+      },
+      "reason": "Cables can create a tripping hazard near the monitor."
+    },
+    {
+      "A_name": "computer monitor",
+      "B_name": "fire extinguisher",
+      "present": false,
+      "risk_type": "",
+      "weight": 0,
+      "soft_clearance_m": 0,
+      "critical_condition": null,
+      "reason": "No semantic hazard between a monitor and a fire extinguisher."
+    },
+    {
+      "A_name": "computer monitor",
+      "B_name": "human",
+      "present": false,
+      "risk_type": "",
+      "weight": 0,
+      "soft_clearance_m": 0,
+      "critical_condition": null,
+      "reason": "No semantic hazard between a monitor and a human."
+    },
+    {
+      "A_name": "computer monitor",
+      "B_name": "photo copier",
+      "present": false,
+      "risk_type": "",
+      "weight": 0,
+      "soft_clearance_m": 0,
+      "critical_condition": null,
+      "reason": "No semantic hazard between a monitor and a photo copier."
+    },
+    {
+      "A_name": "cup_water",
+      "B_name": "eletronic cord cables",
+      "present": true,
+      "risk_type": "spill hazard",
+      "weight": 1,
+      "soft_clearance_m": 0.5,
+      "critical_condition": {
+        "expression": "norm(Ax-Bx,Ay-By,Az-Bz) < Ar + Br"
+      },
+      "reason": "Water can spill and damage the cables."
+    },
+    {
+      "A_name": "cup_water",
+      "B_name": "fire extinguisher",
+      "present": false,
+      "risk_type": "",
+      "weight": 0,
+      "soft_clearance_m": 0,
+      "critical_condition": null,
+      "reason": "No semantic hazard between a cup of water and a fire extinguisher."
+    },
+    {
+      "A_name": "cup_water",
+      "B_name": "human",
+      "present": false,
+      "risk_type": "",
+      "weight": 0,
+      "soft_clearance_m": 0,
+      "critical_condition": null,
+      "reason": "No semantic hazard between a cup of water and a human."
+    },
+    {
+      "A_name": "cup_water",
+      "B_name": "photo copier",
+      "present": true,
+      "risk_type": "spill hazard",
+      "weight": 1,
+      "soft_clearance_m": 0.5,
+      "critical_condition": {
+        "expression": "norm(Ax-Bx,Ay-By,Az-Bz) < Ar + Br"
+      },
+      "reason": "Water can spill and damage the photo copier."
+    },
+    {
+      "A_name": "eletronic cord cables",
+      "B_name": "fire extinguisher",
+      "present": false,
+      "risk_type": "",
+      "weight": 0,
+      "soft_clearance_m": 0,
+      "critical_condition": null,
+      "reason": "No semantic hazard between cables and a fire extinguisher."
+    },
+    {
+      "A_name": "eletronic cord cables",
+      "B_name": "human",
+      "present": true,
+      "risk_type": "tripping hazard",
+      "weight": 1,
+      "soft_clearance_m": 0.5,
+      "critical_condition": {
+        "expression": "norm(Ax-Bx,Ay-By,Az-Bz) < Ar + Br"
+      },
+      "reason": "Cables can create a tripping hazard for humans."
+    },
+    {
+      "A_name": "eletronic cord cables",
+      "B_name": "photo copier",
+      "present": false,
+      "risk_type": "",
+      "weight": 0,
+      "soft_clearance_m": 0,
+      "critical_condition": null,
+      "reason": "No semantic hazard between cables and a photo copier."
+    },
+    {
+      "A_name": "fire extinguisher",
+      "B_name": "human",
+      "present": false,
+      "risk_type": "",
+      "weight": 0,
+      "soft_clearance_m": 0,
+      "critical_condition": null,
+      "reason": "No semantic hazard between a fire extinguisher and a human."
+    },
+    {
+      "A_name": "fire extinguisher",
+      "B_name": "photo copier",
+      "present": false,
+      "risk_type": "",
+      "weight": 0,
+      "soft_clearance_m": 0,
+      "critical_condition": null,
+      "reason": "No semantic hazard between a fire extinguisher and a photo copier."
+    },
+    {
+      "A_name": "human",
+      "B_name": "photo copier",
+      "present": false,
+      "risk_type": "",
+      "weight": 0,
+      "soft_clearance_m": 0,
+      "critical_condition": null,
+      "reason": "No semantic hazard between a human and a photo copier."
+    }
+  ]
+}

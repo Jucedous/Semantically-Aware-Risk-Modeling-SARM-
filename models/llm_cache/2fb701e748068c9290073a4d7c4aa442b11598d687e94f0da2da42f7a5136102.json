@@ -1,0 +1,16 @@
+{
+  "assessments": [
+    {
+      "A_name": "human",
+      "B_name": "knifes",
+      "present": true,
+      "risk_type": "sharp_object",
+      "weight": 5,
+      "soft_clearance_m": 0.5,
+      "critical_condition": {
+        "expression": "norm(Ax - Bx, Ay - By, Az - Bz) < (Ar + Br)"
+      },
+      "reason": "Humans can be injured by sharp objects like knives."
+    }
+  ]
+}

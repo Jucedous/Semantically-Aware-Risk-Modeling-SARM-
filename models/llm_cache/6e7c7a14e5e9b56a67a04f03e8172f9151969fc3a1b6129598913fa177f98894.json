@@ -1,0 +1,14 @@
+{
+  "assessments": [
+    {
+      "A_name": "coffee",
+      "B_name": "eletronic",
+      "present": false,
+      "risk_type": "",
+      "weight": 0,
+      "soft_clearance_m": 0,
+      "critical_condition": null,
+      "reason": "No semantic hazard between drink and electronic."
+    }
+  ]
+}

@@ -1,0 +1,214 @@
+{
+  "assessments": [
+    {
+      "A_name": "coffee",
+      "B_name": "computer mouse",
+      "present": false,
+      "risk_type": "",
+      "weight": 0,
+      "soft_clearance_m": 0,
+      "critical_condition": null,
+      "reason": "No semantic hazard between drink and electronic device."
+    },
+    {
+      "A_name": "coffee",
+      "B_name": "Computer_Monitor",
+      "present": false,
+      "risk_type": "",
+      "weight": 0,
+      "soft_clearance_m": 0,
+      "critical_condition": null,
+      "reason": "No semantic hazard between drink and electronic device."
+    },
+    {
+      "A_name": "coffee",
+      "B_name": "male_person",
+      "present": false,
+      "risk_type": "",
+      "weight": 0,
+      "soft_clearance_m": 0,
+      "critical_condition": null,
+      "reason": "No semantic hazard between drink and human."
+    },
+    {
+      "A_name": "coffee",
+      "B_name": "metal trophy",
+      "present": false,
+      "risk_type": "",
+      "weight": 0,
+      "soft_clearance_m": 0,
+      "critical_condition": null,
+      "reason": "No semantic hazard between drink and object."
+    },
+    {
+      "A_name": "coffee",
+      "B_name": "mouse pad",
+      "present": false,
+      "risk_type": "",
+      "weight": 0,
+      "soft_clearance_m": 0,
+      "critical_condition": null,
+      "reason": "No semantic hazard between drink and object."
+    },
+    {
+      "A_name": "coffee",
+      "B_name": "wifi modem",
+      "present": false,
+      "risk_type": "",
+      "weight": 0,
+      "soft_clearance_m": 0,
+      "critical_condition": null,
+      "reason": "No semantic hazard between drink and electronic device."
+    },
+    {
+      "A_name": "computer mouse",
+      "B_name": "Computer_Monitor",
+      "present": false,
+      "risk_type": "",
+      "weight": 0,
+      "soft_clearance_m": 0,
+      "critical_condition": null,
+      "reason": "No semantic hazard between electronic devices."
+    },
+    {
+      "A_name": "computer mouse",
+      "B_name": "male_person",
+      "present": false,
+      "risk_type": "",
+      "weight": 0,
+      "soft_clearance_m": 0,
+      "critical_condition": null,
+      "reason": "No semantic hazard between electronic device and human."
+    },
+    {
+      "A_name": "computer mouse",
+      "B_name": "metal trophy",
+      "present": false,
+      "risk_type": "",
+      "weight": 0,
+      "soft_clearance_m": 0,
+      "critical_condition": null,
+      "reason": "No semantic hazard between electronic device and object."
+    },
+    {
+      "A_name": "computer mouse",
+      "B_name": "mouse pad",
+      "present": false,
+      "risk_type": "",
+      "weight": 0,
+      "soft_clearance_m": 0,
+      "critical_condition": null,
+      "reason": "No semantic hazard between electronic device and object."
+    },
+    {
+      "A_name": "computer mouse",
+      "B_name": "wifi modem",
+      "present": false,
+      "risk_type": "",
+      "weight": 0,
+      "soft_clearance_m": 0,
+      "critical_condition": null,
+      "reason": "No semantic hazard between electronic devices."
+    },
+    {
+      "A_name": "Computer_Monitor",
+      "B_name": "male_person",
+      "present": false,
+      "risk_type": "",
+      "weight": 0,
+      "soft_clearance_m": 0,
+      "critical_condition": null,
+      "reason": "No semantic hazard between electronic device and human."
+    },
+    {
+      "A_name": "Computer_Monitor",
+      "B_name": "metal trophy",
+      "present": false,
+      "risk_type": "",
+      "weight": 0,
+      "soft_clearance_m": 0,
+      "critical_condition": null,
+      "reason": "No semantic hazard between electronic device and object."
+    },
+    {
+      "A_name": "Computer_Monitor",
+      "B_name": "mouse pad",
+      "present": false,
+      "risk_type": "",
+      "weight": 0,
+      "soft_clearance_m": 0,
+      "critical_condition": null,
+      "reason": "No semantic hazard between electronic device and object."
+    },
+    {
+      "A_name": "Computer_Monitor",
+      "B_name": "wifi modem",
+      "present": false,
+      "risk_type": "",
+      "weight": 0,
+      "soft_clearance_m": 0,
+      "critical_condition": null,
+      "reason": "No semantic hazard between electronic devices."
+    },
+    {
+      "A_name": "male_person",
+      "B_name": "metal trophy",
+      "present": false,
+      "risk_type": "",
+      "weight": 0,
+      "soft_clearance_m": 0,
+      "critical_condition": null,
+      "reason": "No semantic hazard between human and object."
+    },
+    {
+      "A_name": "male_person",
+      "B_name": "mouse pad",
+      "present": false,
+      "risk_type": "",
+      "weight": 0,
+      "soft_clearance_m": 0,
+      "critical_condition": null,
+      "reason": "No semantic hazard between human and object."
+    },
+    {
+      "A_name": "male_person",
+      "B_name": "wifi modem",
+      "present": false,
+      "risk_type": "",
+      "weight": 0,
+      "soft_clearance_m": 0,
+      "critical_condition": null,
+      "reason": "No semantic hazard between human and electronic device."
+    },
+    {
+      "A_name": "metal trophy",
+      "B_name": "mouse pad",
+      "present": false,
+      "risk_type": "",
+      "weight": 0,
+      "soft_clearance_m": 0,
+      "critical_condition": null,
+      "reason": "No semantic hazard between object and object."
+    },
+    {
+      "A_name": "metal trophy",
+      "B_name": "wifi modem",
+      "present": false,
+      "risk_type": "",
+      "weight": 0,
+      "soft_clearance_m": 0,
+      "critical_condition": null,
+      "reason": "No semantic hazard between object and electronic device."
+    },
+    {
+      "A_name": "mouse pad",
+      "B_name": "wifi modem",
+      "present": false,
+      "risk_type": "",
+      "weight": 0,
+      "soft_clearance_m": 0,
+      "critical_condition": null,
+      "reason": "No semantic hazard between object and electronic device."
+    }
+  ]
+}
