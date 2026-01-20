@@ -1,24 +1,34 @@
 # interactive_llm_feedback
 
-This repository contains research code for **LLM-assisted compilation of semantic safety constraints** from object-only scenes, with **persistent user feedback overrides**.
+Research code for **LLM-assisted compilation of semantic safety constraints** from object-only scenes, with **persistent user feedback overrides**.
 
-At a high level, the pipeline:
+High level:
+1. Input: a scene described by named objects (name/kind/tags/radius, and optionally pose).
+2. The system uses an LLM to infer which object pairs are **semantically hazardous categories** (independent of current spacing).
+3. Hazards are converted into **pairwise clearance rules** suitable for downstream controllers (CBF-style constraints).
+4. Users can provide feedback (“this should / should not be dangerous”), which is stored and applied in future compilations.
 
-1. Takes a scene described by named objects (name/kind/tags/radius and optionally pose).
-2. Uses an LLM to infer which object pairs are **semantically hazardous categories** (independent of current spacing).
-3. Converts hazardous pairs into weighted, “soft clearance” pairwise rules suitable for downstream controllers (e.g., CBF-style constraints).
-4. Allows users to provide feedback (“this should/should not be dangerous”), stores it, and resolves future hazards using those stored preferences.
+This README documents:
+- The **Python API service** (`server/`) and core library (`cbf/`, `services/`).
+- The **Unity integration package** (`Safety.zip` → `Safety/` scripts) that calls the API and visualizes/scoring hazards.
 
-This README documents the **core library and API service**. (The repository also contains experimental/demo code that is intentionally not covered here.)
+> Note: The repository also contains an `app/` folder used for internal demos/testing. **This README intentionally does not include usage instructions for `app/`.**
 
 ---
 
 ## Repository layout
 
-- `cbf/` – core logic: semantic hazard compilation, rule instantiation, preference handling, and conflict resolution.
+- `server/` – FastAPI service exposing:
+  - `GET /health`
+  - `POST /v1/compile`
+  - `POST /v1/feedback`
+- `cbf/` – core logic: semantic hazard compilation, rule instantiation, preference handling, conflict resolution.
+- `cbf/graphs/` – feedback graph + hazard graph utilities.
 - `services/` – minimal OpenAI-compatible Chat Completions wrapper with optional on-disk caching.
-- `server/` – FastAPI service exposing compilation and feedback endpoints.
-- `models/` – example assets and local state (kind cache, user preference store, optional LLM cache directory).
+- `models/` – example assets and local state:
+  - `models/kind_cache.json`
+  - `models/user_prefs.json` (default preference store)
+  - `models/llm_cache/` (optional on-disk LLM cache, when enabled)
 
 ---
 
